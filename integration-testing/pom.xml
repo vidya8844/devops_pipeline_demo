@@ -192,7 +192,7 @@
 				<executions>
 					<execution>
 						<id>jmeter-tests</id>
-						<phase>verify2</phase>
+						<phase>verify</phase>
 						<goals>
 							<goal>jmeter</goal>
 						</goals>
