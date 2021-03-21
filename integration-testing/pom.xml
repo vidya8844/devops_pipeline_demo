@@ -188,7 +188,7 @@
                  <plugin>
 				<groupId>com.lazerycode.jmeter</groupId>
 				<artifactId>jmeter-maven-plugin</artifactId>
-			 	<useOldTestEndDetection>true</useOldTestEndDetection>
+			 	
 				<version>1.4.1</version>
 				<executions>
 					<execution>
@@ -199,6 +199,11 @@
 						</goals>
 					</execution>
 				</executions>
+			  <configuration>
+				  <propertiesUser>
+					   <jmeter.exit.check.pause>10000</jmeter.exit.check.pause>
+					   </propertiesUser>
+                              </configuration>
 			</plugin>
         </plugins>
     </build>
