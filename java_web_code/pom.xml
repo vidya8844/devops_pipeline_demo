@@ -79,7 +79,14 @@
 					</execution>
 				</executions>
 			</plugin>
-        </plugins>
+    <plugins>
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>4.6.0</version>
+      </plugin>
+    </plugins>
+
     </build>
 
 </project>
