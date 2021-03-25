@@ -1,4 +1,4 @@
-#FROM servergurus/ubuntu-jdk8
+FROM servergurus/ubuntu-jdk8
 MAINTAINER nivedha <nivedha@gmail.com>
 
 # setup WildFly 
